@@ -1,0 +1,24 @@
+{
+  "name": "alaedin/lab42",
+  "description": "Library Dependency Injection - PSR-11",
+  "type": "library",
+  "scripts": {
+    "test": "./vendor/bin/phpunit --color=always"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaedin\\Lab42\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alaedin\\Lab42\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "psr/container": "^2.0"
+  }
+}
